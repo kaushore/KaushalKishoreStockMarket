@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gZKkDXdONksonJ7e7PWOqYji4PqedcjtI/st0o60cr13gQ7Vjk9XDc3infb4WbD8QxxTm2D1NUqRIUqZ9hRjKQ==",
+  "dgSpecHash": "sTZqMb9y+5ee2o3+sgQVwaVsvU/T8HYYIMX5p6sFBdq8hgXICRRaAaLc6rnKS9A+3tjZ9GlB1AP3GZtuQwefjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
+  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\KaushalKishoreStockMarket\\Middleware\\StockMarket\\StockMarket.AdminAPI\\StockMarket.AdminAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaushal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Kaushal\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

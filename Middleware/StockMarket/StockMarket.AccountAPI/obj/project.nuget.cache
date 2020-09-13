@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o8C8ZXeqIArCgxMBUbCX6C0+T+O1P8gK9Dop3Pb4PPMBgIrIp1bOPaNE9FYTWv90gowZNLC4brmExNhEJ2EU6w==",
+  "dgSpecHash": "iHIOI/eUsw4yl9buMsPlXp69dVqYGqyQ9PSvZCHFRJeRqWbCzko6dtjIY4o8NZggtSbY3e2mGDjP/k5C3S9j1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
+  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\KaushalKishoreStockMarket\\Middleware\\StockMarket\\StockMarket.AccountAPI\\StockMarket.AccountAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaushal\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Kaushal\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

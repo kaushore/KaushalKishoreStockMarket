@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dE7i7LpqQNFsJB2hYmlE1h1HKXs2VI9hYpVbYh3o34JyWPpj2dzjFcR97M8fnR4xpUF40uvbLnFVKflaEPB9tg==",
+  "dgSpecHash": "9qLGjpVBvK4iSg5hz1QkSOekqtKTwF3LiKjW4Hq4zGyu/RU4aPelX4VFgAp953KoAQeIO2haSnef40i3xKGGig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\StockMarket\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
+  "projectFilePath": "C:\\Users\\Kaushal\\Documents\\Phase3Project\\KaushalKishoreStockMarket\\Middleware\\StockMarket\\StockMarket.ExcelAPI\\StockMarket.ExcelAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kaushal\\.nuget\\packages\\epplus.core\\1.5.4\\epplus.core.1.5.4.nupkg.sha512",
     "C:\\Users\\Kaushal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
