@@ -1,0 +1,15 @@
+<div class="container">
+    <table>
+        <h3>Enter Username and Password.</h3>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" required="required" [(ngModel)]="Username" ></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" required="required" [(ngModel)="Password" ]></td>
+        </tr>
+    </table>
+    <button class="button" (click)="ValidateUserLogin()">Login</button>
+    <button class="button" (click)="SignupUser()">Login</button>
+</div>

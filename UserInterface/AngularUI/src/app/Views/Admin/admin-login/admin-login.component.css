@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    margin-top: 36px;
+}
+
+.button {
+    background-color: #0b2229;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    font-size: 24px;  
+    margin: 16px 32px 16px 32px;
+    cursor: pointer;
+  } 
