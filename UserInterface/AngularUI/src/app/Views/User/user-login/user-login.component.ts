@@ -20,7 +20,7 @@ export class UserLoginComponent implements OnInit {
   }
 
   SignupUser(){
-    this.router.navigateByUrl("user-sign-up");
+    this.router.navigateByUrl("user-signup");
   }
 
 }

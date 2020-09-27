@@ -1,17 +1,24 @@
-.container{
+.container {
     text-align: center;
+    font-size: 18px;
     margin-top: 36px;
 }
+
+table{
+    margin-left:auto;
+    margin-right:auto;   
+    width: 300px;
+ }
 
 .button {
     background-color: #0b2229;
     border: none;
     color: white;
-    padding: 20px 30px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;  
-    font-size: 24px;  
-    margin: 16px 32px 16px 32px;
+    font-size: 18px;  
+    margin: 8px 16px 8px 16px;
     cursor: pointer;
-  } 
+  }  

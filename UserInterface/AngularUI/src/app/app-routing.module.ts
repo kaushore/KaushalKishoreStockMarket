@@ -11,6 +11,7 @@ import { AdminHomePageComponent } from './Views/Admin/admin-home-page/admin-home
 import { AdminLoginComponent } from './Views/Admin/admin-login/admin-login.component';
 import { UpdateIpoComponent} from './Views/Admin/update-ipo/update-ipo.component';
 import { AddStockPriceComponent } from './Views/Admin/add-stock-price/add-stock-price.component';
+import { ManageCompanyComponent } from './Views/Admin/manage-company/manage-company.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'admin-login', component: AdminLoginComponent},
   { path: 'update-ipo', component: UpdateIpoComponent},
   { path: 'add-stock-price', component: AddStockPriceComponent},
+  { path: 'manage-company', component: ManageCompanyComponent },
 
   { path: '', redirectTo: 'home-page', pathMatch: "full"}
 ];
