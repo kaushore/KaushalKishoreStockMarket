@@ -11,8 +11,7 @@ namespace StockMarket.UserAPI.Models
     public class User
     {
         [Key]
-        [StringLength(10)]
-        public string UserId { get; set; }
+        public int UserId { get; set; }
 
         [Required]
         [StringLength(40)]

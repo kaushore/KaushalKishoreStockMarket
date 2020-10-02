@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { User } from '../../../Models/user';
+import { AccountService } from '../../../Services/account.service';
 
 @Component({
   selector: 'app-user-sign-up',
@@ -8,13 +10,21 @@ import { Router } from '@angular/router';
 })
 export class UserSignUpComponent implements OnInit {
 
-  constructor(private router : Router) { }
+  user : User = <User>{};
+  isUsed : boolean = false;
+
+  constructor(
+    private router : Router,
+    private service : AccountService
+    ) { }
 
   ngOnInit(): void {
   }
 
-  ToUserHomePage(){
-    this.router.navigateByUrl("user-home-page");
+  AddNewUser(){
+    console.log(this.user);
+    this.service.CreateAccount(this.user);
+    this.router.navigateByUrl("user-login");
   }
 
 }

@@ -3,16 +3,20 @@
     <table>
         <tr>
             <td>Username</td>
-            <td><input type="text"></td>
+            <td><input type="text" [(ngModel)]="this.user.Username" required="required"></td>
         </tr>
         <tr>
             <td>Password</td>
-            <td><input type="password"></td>
+            <td><input type="password" [(ngModel)]="this.user.Password" required="required"></td>
         </tr>
         <tr>
             <td>Email</td>
-            <td><input type="text"></td>
+            <td><input type="text" [(ngModel)]="this.user.Email" required="required"></td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td><input type="text" [(ngModel)]="this.user.Mobile" required="required"></td>
         </tr>
     </table>
-    <button class="button" (click) = "ToUserHomePage()">Sign Up</button>
+    <button class="button" (click) = "AddNewUser()">Sign Up</button>
 </div>

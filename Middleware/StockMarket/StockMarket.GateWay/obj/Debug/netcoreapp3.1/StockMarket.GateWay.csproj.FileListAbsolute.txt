@@ -59,3 +59,6 @@ C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\St
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.dll
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.pdb
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.genruntimeconfig.cache
+C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.csproj.CoreCompileInputs.cache
+C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.GateWay\obj\Debug\netcoreapp3.1\StockMarket.GateWay.MvcApplicationPartsAssemblyInfo.cache
