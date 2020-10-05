@@ -3,11 +3,11 @@
     <table>        
         <tr>
             <td>Username</td>
-            <td><input type="text" [(ngModel)]="Username" required="required"></td>
+            <td><input type="text" [(ngModel)]="this.user.Username" required="required"></td>
         </tr>
         <tr>
             <td>Password</td>
-            <td><input type="password" required="required" [(ngModel)]="Password" ></td>
+            <td><input type="password" required="required" [(ngModel)]="this.user.Password" ></td>
         </tr>
     </table>
     <button class="button" (click)="ValidateUserLogin()">Login</button>

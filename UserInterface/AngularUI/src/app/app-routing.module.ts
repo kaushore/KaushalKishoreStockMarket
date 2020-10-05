@@ -6,6 +6,7 @@ import { HomePageComponent } from './Views/home-page/home-page.component';
 import { UserHomePageComponent } from './Views/User/user-home-page/user-home-page.component';
 import { UserLoginComponent } from './Views/User/user-login/user-login.component';
 import { UserSignUpComponent } from './Views/User/user-sign-up/user-sign-up.component';
+import { ViewIpoComponent } from './Views/User/view-ipo/view-ipo.component';
 
 import { AdminHomePageComponent } from './Views/Admin/admin-home-page/admin-home-page.component';
 import { AdminLoginComponent } from './Views/Admin/admin-login/admin-login.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'user-home-page', component: UserHomePageComponent},
   { path: 'user-login', component: UserLoginComponent},
   { path: 'user-signup', component: UserSignUpComponent},
+  { path: 'view-ipo', component: ViewIpoComponent},
 
   { path: 'admin-home-page', component: AdminHomePageComponent},
   { path: 'admin-login', component: AdminLoginComponent},

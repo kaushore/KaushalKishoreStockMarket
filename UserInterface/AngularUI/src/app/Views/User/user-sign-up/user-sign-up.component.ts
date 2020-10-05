@@ -12,6 +12,7 @@ export class UserSignUpComponent implements OnInit {
 
   user : User = <User>{};
   isUsed : boolean = false;
+  output : any;
 
   constructor(
     private router : Router,
@@ -22,8 +23,8 @@ export class UserSignUpComponent implements OnInit {
   }
 
   AddNewUser(){
-    console.log(this.user);
-    this.service.CreateAccount(this.user);
+    //console.log(this.user);
+    this.service.CreateAccount(this.user).subscribe();
     this.router.navigateByUrl("user-login");
   }
 

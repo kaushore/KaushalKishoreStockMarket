@@ -10,10 +10,13 @@ import { UserHomePageComponent } from './Views/User/user-home-page/user-home-pag
 import { AdminHomePageComponent } from './Views/Admin/admin-home-page/admin-home-page.component';
 import { AdminLoginComponent } from './Views/Admin/admin-login/admin-login.component';
 import { HomePageComponent } from './Views/home-page/home-page.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ManageCompanyComponent } from './Views/Admin/manage-company/manage-company.component';
 import { UpdateIpoComponent } from './Views/Admin/update-ipo/update-ipo.component';
 import { AddStockPriceComponent } from './Views/Admin/add-stock-price/add-stock-price.component';
+
+import { AccountService } from './Services/account.service';
+import { ViewIpoComponent } from './Views/User/view-ipo/view-ipo.component';
 
 @NgModule({
   declarations: [
@@ -26,15 +29,17 @@ import { AddStockPriceComponent } from './Views/Admin/add-stock-price/add-stock-
     HomePageComponent,
     ManageCompanyComponent,
     UpdateIpoComponent,
-    AddStockPriceComponent
+    AddStockPriceComponent,
+    ViewIpoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [AccountService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { User } from '../../../Models/user';
+import { AccountService } from '../../../Services/account.service';
 
 @Component({
   selector: 'app-user-login',
@@ -7,19 +9,25 @@ import { Router } from '@angular/router';
   styleUrls: ['./user-login.component.css']
 })
 export class UserLoginComponent implements OnInit {
-  Username : string;
-  Password : string;
+  user : User = <User>{};
 
-  constructor(private router : Router) { }
+  constructor(
+    private router : Router,
+    private service : AccountService
+    ) { }
 
   ngOnInit(): void {
   }
 
   ValidateUserLogin(){
-    this.router.navigateByUrl("user-home-page");
-  }
+    this.service.Authenticate(this.user)
+    .subscribe(Response=>{
+      localStorage.setItem("session", JSON.stringify(Response));
+      this.router.navigateByUrl("user-home-page");
+    });
+  }  
 
-  SignupUser(){
+  SignupUser(){    
     this.router.navigateByUrl("user-signup");
   }
 
