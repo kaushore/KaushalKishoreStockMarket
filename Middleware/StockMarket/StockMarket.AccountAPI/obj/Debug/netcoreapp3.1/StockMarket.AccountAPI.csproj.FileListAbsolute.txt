@@ -180,3 +180,4 @@ C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\St
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.dll
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.pdb
 C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.genruntimeconfig.cache
+C:\Users\Kaushal\Documents\Phase3Project\KaushalKishoreStockMarket\Middleware\StockMarket\StockMarket.AccountAPI\obj\Debug\netcoreapp3.1\StockMarket.AccountAPI.csprojAssemblyReference.cache
