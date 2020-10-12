@@ -1,1 +1,34 @@
-<p>update-ipo works!</p>
+<div class="container">
+    <h2>Add IPO details</h2>
+    <table>
+        <tr>
+            <td>IPO ID</td>
+            <td><input type="text" [(ngModel)]="this.ipo.IpoId" required="required"></td>
+        </tr>
+        <tr>
+            <td>Company name</td>
+            <td><input type="string" [(ngModel)]="this.ipo.CompanyName" required="required"></td>
+        </tr>
+        <tr>
+            <td>StockExchange</td>
+            <td><input type="text" [(ngModel)]="this.ipo.StockExchange" required="required"></td>
+        </tr>
+        <tr>
+            <td>Price per share</td>
+            <td><input type="number" [(ngModel)]="this.ipo.PricePerShare" required="required"></td>
+        </tr>
+        <tr>
+            <td>Number of shares</td>
+            <td><input type="number" [(ngModel)]="this.ipo.NumberOfShares" required="required"></td>
+        </tr>
+        <tr>
+            <td>Open date and time</td>
+            <td><input type="datetime" [(ngModel)]="this.ipo.OpenDateTime" required="required"></td>
+        </tr>
+        <tr>
+            <td>Remarks</td>
+            <td><input type="number" [(ngModel)]="this.ipo.Remarks" required="required"></td>
+        </tr>
+    </table>
+    <button class="button" (click) = "AddNewIpo()">Add IPO</button>
+</div>

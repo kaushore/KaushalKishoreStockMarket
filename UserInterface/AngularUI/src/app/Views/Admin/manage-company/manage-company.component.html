@@ -1,1 +1,38 @@
-<p>manage-company works!</p>
+<div class="container">
+    <h2>Add stock price</h2>
+    <table>
+        <tr>
+            <td>Company code</td>
+            <td><input type="string" [(ngModel)]="this.company.CompanyCode" required="required"></td>
+        </tr>
+        <tr>
+            <td>Company name</td>
+            <td><input type="string" [(ngModel)]="this.company.Name" required="required"></td>
+        </tr>
+        <tr>
+            <td>Turnover</td>
+            <td><input type="number" [(ngModel)]="this.company.Turnover" required="required"></td>
+        </tr>
+        <tr>
+            <td>CEO</td>
+            <td><input type="string" [(ngModel)]="this.company.CEO" required="required"></td>
+        </tr>        
+        <tr>
+            <td>Board of Directors</td>
+            <td><input type="string" [(ngModel)]="this.company.BoardOfDirectors" required="required"></td>
+        </tr>
+        <tr>
+            <td>Sector</td>
+            <td><input type="string" [(ngModel)]="this.company.Sector" required="required"></td>
+        </tr>
+        <tr>
+            <td>Write Up</td>
+            <td><input type="string" [(ngModel)]="this.company.WriteUp" required="required"></td>
+        </tr>
+        <tr>
+            <td>Stock Code</td>
+            <td><input type="string" [(ngModel)]="this.company.StockCode" required="required"></td>
+        </tr>        
+    </table>
+    <button class="button" (click) = "AddCompany()">Add</button>
+</div>

@@ -14,9 +14,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ManageCompanyComponent } from './Views/Admin/manage-company/manage-company.component';
 import { UpdateIpoComponent } from './Views/Admin/update-ipo/update-ipo.component';
 import { AddStockPriceComponent } from './Views/Admin/add-stock-price/add-stock-price.component';
+import { ViewIpoComponent } from './Views/User/view-ipo/view-ipo.component';
 
 import { AccountService } from './Services/account.service';
-import { ViewIpoComponent } from './Views/User/view-ipo/view-ipo.component';
+import { AdminService } from './Services/admin.service';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,10 @@ import { ViewIpoComponent } from './Views/User/view-ipo/view-ipo.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [AccountService],
+  providers: [
+    AccountService,
+    AdminService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

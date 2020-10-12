@@ -1,1 +1,26 @@
-<p>add-stock-price works!</p>
+<div class="container">
+    <h2>Add stock price</h2>
+    <table>
+        <tr>
+            <td>Company code</td>
+            <td><input type="string" [(ngModel)]="this.stockPrice.CompanyCode" required="required"></td>
+        </tr>
+        <tr>
+            <td>Stock Exchange</td>
+            <td><input type="string" [(ngModel)]="this.stockPrice.StockExchange" required="required"></td>
+        </tr>
+        <tr>
+            <td>Share Price</td>
+            <td><input type="string" [(ngModel)]="this.stockPrice.CurrentPrice" required="required"></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><input type="date" [(ngModel)]="this.stockPrice.Date" required="required"></td>
+        </tr>        
+        <tr>
+            <td>Time</td>
+            <td><input type="time" [(ngModel)]="this.stockPrice.Time" required="required"></td>
+        </tr>        
+    </table>
+    <button class="button" (click) = "AddStockPrice()">Add</button>
+</div>
